@@ -46,7 +46,7 @@ void SortedStack :: sort()
     }
 }
 
-// q4 LPU Cache
+// q4 LPU Caches
 #include <bits/stdc++.h>
 using namespace std;
 
