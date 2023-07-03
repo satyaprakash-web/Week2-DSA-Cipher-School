@@ -46,7 +46,7 @@ public:
             p = p->next->next;
         }
 
-        // Segregate odd and even indexed Linked Lists
+        // Segregate odd and even indexed Linked List
         p = head;
         Node* clone = head->next;
         Node* cloneStart = clone;
