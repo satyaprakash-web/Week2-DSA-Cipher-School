@@ -30,7 +30,7 @@ int diameter(TreeNode *root,int *height){
         return 0;
     }
     int lh=0,rh=0,ld=0,rd=0;
-    ld =diameter(root->left,&lh); // adding one to include the root
+    ld =diameter(root->left,&lh); // adding one to include the roots
     rd =diameter(root->right,&rh);
 
     *height=max(lh,rh)+1;
