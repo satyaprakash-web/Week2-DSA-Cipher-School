@@ -1,4 +1,4 @@
-// Q1(root to leaf max sum)
+// Q1 (root to leaf max sum)
 bool isLeaf(TreeNode *root){
     return (root!=NULL && root->left==NULL && root->right==NULL);
 }
