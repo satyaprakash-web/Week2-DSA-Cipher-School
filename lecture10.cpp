@@ -1,4 +1,4 @@
-// Q3(Construct Binnary Tree form Inorder &preorder | Inorder & postorder)
+// Q3 ( Construct Binnary Tree form Inorder &preorder | Inorder & postorder)
 int find(vector<int> inOrder, int start, int end, int x)
 {
     for (int i = start; i <= end; i++)
